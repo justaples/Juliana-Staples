@@ -79,10 +79,11 @@ font-family: 'Ubuntu', sans-serif;
     font-size: 8vw;
   }
   
+  
   @media screen and (max-width: 600px) {
     .logo{
       width: 20px;
-      margin: 10px;
+      margin: 15px;
       display: inline-block;
     }
     
