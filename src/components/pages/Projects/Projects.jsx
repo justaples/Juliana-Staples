@@ -85,6 +85,22 @@ img{
   border-radius: 15px;
   color: black;
 }
+
+@media screen and (max-width: 600px){
+ .description-box{
+   font-size: 1.5vw; 
+ }
+ 
+ .title{
+  font-size: 25px;
+  padding-top: 0px;
+ }
+
+ /* .link{
+   margin-top: 15px;
+ } */
+}
+
 `
 
 const Projects = () => {
@@ -105,6 +121,7 @@ const Projects = () => {
         <div>
           <p>Description: This is a trivia for all the Potterheads to test if they are Pure-blood, Half- Blood, or a Squib. The player is shown a Harry Potter related question and 4 different possible answers on screen. There are a total of 10 questions and each correct answer awards 10 points.</p>
           <p>Tecnologies: JavaScript, HTML and CSS </p>
+          <br />
           <a className='link' href="https://github.com/justaples/Harry-Potter-Trivia" target='_blank' rel='noreferrer'>GitHub Repo</a>
         </div>
       </div>
@@ -121,6 +138,7 @@ const Projects = () => {
         <div>
           <p>Description: This is a full CRUD project with Google OAuth implemented. It was designed to help the employees of a petting zoo keep track of the husbandry log for each animal. Employees are able to see all animals available, enter add / edit / delete animals to the list, as well as enter logs for their care.</p>
           <p>Tecnologies: Express, Node.js, Mongoose, GoogleOAuth, EJS, Multer, Bootstrap </p>
+          <br />
           <a className='link' href="https://github.com/justaples/Forrest-and-Friends-Petting-Zoo" target='_blank' rel='noreferrer'>GitHub Repo</a>
         </div>
       </div>
@@ -137,6 +155,7 @@ const Projects = () => {
         <div>
           <p>Description: This is a group project for Plant Propagation. My main roles were: Write the code for the RESTful routes in the backend. Create and connect to Atlas database. Design the search bar. Deploy both front and backend. </p>
           <p>Tecnologies: React, Node.js, Express, JavaScript, HTML, CSS, Google Maps, Multer, Cloudinary </p>
+          <br />
           <a className='link' href="https://github.com/Plants-and-stuff" target='_blank' rel='noreferrer'>GitHub Repo</a>
         </div>
       </div>
@@ -151,6 +170,7 @@ const Projects = () => {
         <div>
           <p>Description: Work in Progress</p>
           <p>Tecnologies: React.js, HTML, CSS </p>
+          <br />
           <a className='link' href="https://github.com/justaples/Juliana-Staples" target='_blank' rel='noreferrer'>GitHub Repo</a>
         </div>
       </div>

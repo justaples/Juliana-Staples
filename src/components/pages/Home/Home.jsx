@@ -53,18 +53,18 @@ font-family: 'Ubuntu', sans-serif;
     font-size: 100px;
     flex-wrap: wrap;
   }
-
+  
   .logo{
     width: 150px;
     margin: 10px;
     position: relative;
     display: inline-block;
   }
-
+  
   /* .logo-container{
     padding: 0px;
   } */
-
+  
   .logo-name{
     text-align: center;
     font-size: 2vw;
@@ -72,11 +72,30 @@ font-family: 'Ubuntu', sans-serif;
     margin-bottom:0px;
     padding: 0vw;
   }
-
+  
   .logo-icon{
     /* height:10vh; */
     margin: 0px;
     font-size: 8vw;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .logo{
+      width: 20px;
+      margin: 10px;
+      display: inline-block;
+    }
+    
+    .skills-container{
+      font-size: 30px;
+    }
+
+    .logo-icon{
+      height:5vh;
+      margin: 0px;
+    }
+    
+  
   }
 `
 

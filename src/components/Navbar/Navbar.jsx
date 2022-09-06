@@ -45,8 +45,10 @@ const NavContainer = styled.div`
     margin: 10px;
   }
   
-  @media screen and (max-width: 800px) {
-    .navBar{
+  @media screen and (max-width: 600px) {
+    .nav{
+      display: flex;
+      /* flex-direction: column; */
     }
     
     .linkIcons {
@@ -61,8 +63,14 @@ const NavContainer = styled.div`
     
     .logo{
       height: 80px;
-      margin: 30px 30px 30px 30px;
+      margin: 30px 30px 30px 5px;
     
+  }
+
+  .links-container{
+    display: flex;
+    flex-direction: column;
+    height:100px;
   }
 }
 `
@@ -82,16 +90,13 @@ const Navbar = () => {
         
         <Link to='/projects' className='link'>Portfolio</Link>
         <div className="contact-container">
-          {/* <div className="contact-me">
-            <h3>Contact me!</h3>
-          </div> */}
           <div className="links-container">
         <SocialIcon url="mailto:juhpaim@hotmail.com" className='linkIcons' bgColor='#403f53'/>
         <SocialIcon url="https://www.linkedin.com/in/julianastaples/" className='linkIcons' bgColor='#0a56a2' target='_blank' rel='noreferrer'/>
         <SocialIcon url="https://github.com/justaples" className='linkIcons' bgColor='black' target='_blank' rel='noreferrer'/>
           </div>
         </div>
-        </div>
+      </div>
     </div>
     </NavContainer>
   )

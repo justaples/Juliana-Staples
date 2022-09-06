@@ -78,16 +78,38 @@ const AboutPage = styled.div`
     font-size: 28px;
     padding: 0px 50px 25px 50px;
   }
-
-  @media screen and (max-width: 800px) {
-  .img-container {
-    float: none;
-    /* width: 100%; */
-  }
   
-  p{
-    font-size: 20px;
-  }
+  @media screen and (max-width: 800px) {
+    .img-container {
+      float: none;
+      /* width: 100%; */
+    }
+    
+    p{
+      font-size: 12px;
+      padding: 0px 25px 25px 25px;
+    }
+    
+    .title{
+      font-size: 25px;
+    }
+    
+    .resume-btn{
+      height: 45px;
+      width: 50%;
+      text-align: center;
+      font-size: 10px;
+      text-shadow: 1px 1px gray;
+      text-decoration: none;
+      border-radius: 15px;
+      margin: auto;
+      margin-bottom: 5px;
+      margin-top: 10px;
+      padding: 0px 10px;
+      font-weight: bold;
+      font-family: 'Ubuntu', sans-serif;
+      color: black;
+    }
   }
   `
 
