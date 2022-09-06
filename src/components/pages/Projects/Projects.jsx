@@ -66,7 +66,7 @@ img{
 .img-box{
   width: 30%;
   font-size:1.5vw;
-  margin: 0px 25px 25px 25px;  
+  margin: 15px 25px 25px 25px;  
 }
 
 .description-box{
@@ -90,9 +90,14 @@ img{
 
 @media screen and (max-width: 600px){
  .description-box{
-   font-size: 1.5vw; 
+   font-size: 2.1vw; 
+  }
+  
+  .project-box{
+   width: 90%;
+
  }
- 
+
  .title{
   font-size: 25px;
   padding-top: 0px;

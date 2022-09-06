@@ -28,7 +28,7 @@ font-family: 'Ubuntu', sans-serif;
     margin-bottom: 40px;
     padding: 5px;
     color: black;
-    text-shadow: 3px 3px #eff9fc;
+    /* text-shadow: 3px 3px #eff9fc; */
     font-size: 3vw;
     background-color: rgba(192, 236, 249, 0.9);
     border-radius: 50px;
