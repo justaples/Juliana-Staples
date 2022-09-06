@@ -57,6 +57,7 @@ img{
   background-color: rgba(192, 236, 249, 0.9);
   margin: 15px;
   width: 75%;
+  /* height: 250px;; */
   display: flex;
   flex-direction: row;
   border-radius: 50px;
@@ -81,6 +82,7 @@ img{
   text-decoration: none;
   background-color: white;
   padding: 5px;
+  /* margin-bottom: 2px; */
   border: 2px solid black;
   border-radius: 15px;
   color: black;
@@ -112,15 +114,15 @@ const Projects = () => {
 
     <div className="project-box">
       <div className="img-box">
-        <h2>Harry Potter Trivia</h2>
+        <h2>Harry Potter <br /> Trivia</h2>
         <a href="https://justaples.github.io/Harry-Potter-Trivia/" target='_blank' rel='noreferrer'>
           <img src={HarryPotter} alt="" />
         </a>  
       </div>
       <div className="description-box">
         <div>
-          <p>Description: This is a trivia for all the Potterheads to test if they are Pure-blood, Half- Blood, or a Squib. The player is shown a Harry Potter related question and 4 different possible answers on screen. There are a total of 10 questions and each correct answer awards 10 points.</p>
-          <p>Tecnologies: JavaScript, HTML and CSS </p>
+          <p>The player is shown a Harry Potter related question and 4 different possible answers on screen. There are a total of 10 questions and each correct answer awards 10 points.</p>
+          <p>Technologies: JavaScript, HTML and CSS </p>
           <br />
           <a className='link' href="https://github.com/justaples/Harry-Potter-Trivia" target='_blank' rel='noreferrer'>GitHub Repo</a>
         </div>
@@ -136,8 +138,8 @@ const Projects = () => {
       </div>
       <div className="description-box">
         <div>
-          <p>Description: This is a full CRUD project with Google OAuth implemented. It was designed to help the employees of a petting zoo keep track of the husbandry log for each animal. Employees are able to see all animals available, enter add / edit / delete animals to the list, as well as enter logs for their care.</p>
-          <p>Tecnologies: Express, Node.js, Mongoose, GoogleOAuth, EJS, Multer, Bootstrap </p>
+          <p>This is a full CRUD project with Google OAuth implemented. It was designed to help the employees of a petting zoo keep track of the husbandry log for each animal. Employees are able to see all animals available, enter add / edit / delete animals to the list, as well as enter logs for their care.</p>
+          <p>Technologies: Express, Node.js, Mongoose, GoogleOAuth, EJS, Multer, Bootstrap </p>
           <br />
           <a className='link' href="https://github.com/justaples/Forrest-and-Friends-Petting-Zoo" target='_blank' rel='noreferrer'>GitHub Repo</a>
         </div>
@@ -146,15 +148,15 @@ const Projects = () => {
 
     <div className="project-box">
       <div className="img-box">
-        <h2>Plant it Forward</h2>
+        <h2>Plant it <br /> Forward</h2>
         <a href="https://plant-it-forward.herokuapp.com/" target='_blank' rel='noreferrer'>
           <img src={PIF} alt="" />
         </a>  
       </div>
       <div className="description-box">
         <div>
-          <p>Description: This is a group project for Plant Propagation. My main roles were: Write the code for the RESTful routes in the backend. Create and connect to Atlas database. Design the search bar. Deploy both front and backend. </p>
-          <p>Tecnologies: React, Node.js, Express, JavaScript, HTML, CSS, Google Maps, Multer, Cloudinary </p>
+          <p>This is a group project for Plant Propagation. My main roles were: Write the code for the RESTful routes in the backend. Create and connect to Atlas database. Design the search bar. Deploy both front and backend.</p>
+          <p>Technologies: React, Node.js, Express, JavaScript, HTML, CSS, Google Maps, Multer, Cloudinary </p>
           <br />
           <a className='link' href="https://github.com/Plants-and-stuff" target='_blank' rel='noreferrer'>GitHub Repo</a>
         </div>
@@ -168,8 +170,8 @@ const Projects = () => {
       </div>
       <div className="description-box">
         <div>
-          <p>Description: Work in Progress</p>
-          <p>Tecnologies: React.js, HTML, CSS </p>
+          <p>Work in Progress</p>
+          <p>Technologies: React.js, HTML, CSS </p>
           <br />
           <a className='link' href="https://github.com/justaples/Juliana-Staples" target='_blank' rel='noreferrer'>GitHub Repo</a>
         </div>
