@@ -145,9 +145,7 @@ const Projects = () => {
     <div className="project-box">
       <div className="img-box">
         <h2>This Website</h2>
-        <a href="" target='_blank' rel='noreferrer'>
           <img src={Portfolio} alt="" />
-        </a>  
       </div>
       <div className="description-box">
         <div>
