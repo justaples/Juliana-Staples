@@ -23,16 +23,16 @@ const NavContainer = styled.div`
     position: absolute;
     left: 0;
     margin: 10px 30px 10px 30px;
-}
-
-.nav{
+  }
+  
+  .nav{
     display: flex;
     align-items: center;
     /* justify-content: flex-start; */
     /* border: 1px solid blue; */
-}
-
-.link{
+  }
+  
+  .link{
     margin: 20px;
     text-decoration: none;
     font-size: 25px;
@@ -42,8 +42,28 @@ const NavContainer = styled.div`
   }
   
   .linkIcons{
-  margin: 10px;
-
+    margin: 10px;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .navBar{
+    }
+    
+    .linkIcons {
+      margin: 3px;
+      size: 10px;
+    }
+    
+    .link{
+      margin: 7px;
+      font-size: 15px;
+    }
+    
+    .logo{
+      height: 80px;
+      margin: 30px 30px 30px 30px;
+    
+  }
 }
 `
 const Navbar = () => {

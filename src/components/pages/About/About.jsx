@@ -20,22 +20,31 @@ const AboutPage = styled.div`
   }
   
   img{
+    width: 90%;
     border-radius: 100px;
+    align-items: center;
   }
   
   .img-container{
     display: flex;
     flex-direction: column;
+    align-items: center;
     float: left;
-    margin: 30px 25px 25px 50px;
+    margin: 30px 50px 25px 50px;
     border-radius: 100px;
   }
 
-  .download{
+  .resume{
+    display: flex;
+  }
+
+  .resume-btn{
+    height: 70px;
     width: 50%;
     text-align: center;
-    font-size: 25px;
-    text-shadow: 1px 2px gray;
+    font-size: 100%;
+    text-shadow: 1px 1px gray;
+    text-decoration: none;
     border-radius: 15px;
     margin: auto;
     margin-bottom: 5px;
@@ -43,8 +52,9 @@ const AboutPage = styled.div`
     padding: 10px;
     font-weight: bold;
     font-family: 'Ubuntu', sans-serif;
+    color: black;
   }
-
+  
   .about-container{
     background-color: rgba(192, 236, 249, 0.9);
     display:flex;
@@ -55,7 +65,7 @@ const AboutPage = styled.div`
     width: 75%;
     border-radius: 50px;
   }
-
+  
   .title{
     font-size: 50px;
     font-weight: bold;
@@ -68,10 +78,21 @@ const AboutPage = styled.div`
     font-size: 28px;
     padding: 0px 50px 25px 50px;
   }
-`
+
+  @media screen and (max-width: 800px) {
+  .img-container {
+    float: none;
+    /* width: 100%; */
+  }
+  
+  p{
+    font-size: 20px;
+  }
+  }
+  `
 
 const About = () => {
-
+  
   const downloadResume = () => {
     fetch('Juliana-Staples.pdf').then(response => {
         response.blob().then(blob => {
@@ -93,7 +114,10 @@ const About = () => {
         <article>
         <div className='img-container'>
           <img src={profilePic} alt="profile" />
-          <button className='download' onClick={downloadResume}>Download <br />My Resume</button>
+          <div className='resume'>
+          <button className='resume-btn' ><a href="https://drive.google.com/file/d/1PS0Nr_IUT20odOGkjiGeBuZA7RJvHH1z/view?usp=sharing" target='_blank' rel='noreferrer' className='resume-btn'>Resume</a></button>
+          <button className='resume-btn' onClick={downloadResume}>Download <br />my Resume</button>
+          </div>
         </div>
           <p>
           People joke that I’m an extroverted introvert because of my quiet nature paired with a highly vocal approach to teaching, problem-solving, and driving a higher mission among my team!
