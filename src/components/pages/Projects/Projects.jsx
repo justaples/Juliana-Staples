@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import HarryPotter from '../../../assets/images/HarryPotterTrivia.png'
 import PettingZoo from '../../../assets/images/PettingZoo.png'
 import PIF from '../../../assets/images/PlantItForward.png'
-import Portfolio from '../../../assets/images/Portfolio.png'
+// import Portfolio from '../../../assets/images/Portfolio.png'
 
 const ProjectsContainer = styled.div`
   font-family: 'Ubuntu', sans-serif;
