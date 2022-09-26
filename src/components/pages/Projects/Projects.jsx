@@ -168,7 +168,7 @@ const Projects = () => {
       </div>
     </div>
 
-    <div className="project-box">
+    {/* <div className="project-box">
       <div className="img-box">
         <h2>This Website</h2>
           <img src={Portfolio} alt="" />
@@ -181,7 +181,7 @@ const Projects = () => {
           <a className='link' href="https://github.com/justaples/Juliana-Staples" target='_blank' rel='noreferrer'>GitHub Repo</a>
         </div>
       </div>
-    </div>
+    </div> */}
     </div>
     </div>
     </ProjectsContainer>

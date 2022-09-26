@@ -88,7 +88,7 @@ const Navbar = () => {
       <div className="nav">
         <Link to='/about' className='link'>About Me</Link>
         
-        <Link to='/projects' className='link'>Portfolio</Link>
+        <Link to='/projects' className='link'>Projects</Link>
         <div className="contact-container">
           <div className="links-container">
         <SocialIcon url="mailto:juhpaim@hotmail.com" className='linkIcons' bgColor='#403f53'/>
