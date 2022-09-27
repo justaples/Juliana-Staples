@@ -137,7 +137,7 @@ const About = () => {
         <div className='img-container'>
           <img src={profilePic} alt="profile" />
           <div className='resume'>
-          <button className='resume-btn' ><a href="https://drive.google.com/file/d/1PS0Nr_IUT20odOGkjiGeBuZA7RJvHH1z/view?usp=sharing" target='_blank' rel='noreferrer' className='resume-btn'>Resume</a></button>
+          <button className='resume-btn' ><a href="https://drive.google.com/file/d/10Jthp61K0lH1qPRzQSGb8u5R2eUBVMGQ/view?usp=sharing" target='_blank' rel='noreferrer' className='resume-btn'>Resume</a></button>
           <button className='resume-btn' onClick={downloadResume}>Download <br />my Resume</button>
           </div>
         </div>
