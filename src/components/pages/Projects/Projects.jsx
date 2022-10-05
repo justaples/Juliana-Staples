@@ -3,6 +3,8 @@ import styled from 'styled-components'
 import HarryPotter from '../../../assets/images/HarryPotterTrivia.png'
 import PettingZoo from '../../../assets/images/PettingZoo.png'
 import PIF from '../../../assets/images/PlantItForward.png'
+import DASpellTracker from '../../../assets/images/DumbledoresArmy.png'
+
 // import Portfolio from '../../../assets/images/Portfolio.png'
 
 const ProjectsContainer = styled.div`
@@ -121,7 +123,7 @@ const Projects = () => {
       <div className="img-box">
         <h2>Harry Potter <br /> Trivia</h2>
         <a href="https://justaples.github.io/Harry-Potter-Trivia/" target='_blank' rel='noreferrer'>
-          <img src={HarryPotter} alt="" />
+          <img src={HarryPotter} alt="trivia-page" />
         </a>  
       </div>
       <div className="description-box">
@@ -138,7 +140,7 @@ const Projects = () => {
       <div className="img-box">
         <h2>Forrest & Friends <br /> Petting Zoo</h2>
         <a href="https://crud-petting-zoo.herokuapp.com/home" target='_blank' rel='noreferrer'>
-          <img src={PettingZoo} alt="" />
+          <img src={PettingZoo} alt="petting-zoo-page" />
         </a>  
       </div>
       <div className="description-box">
@@ -155,7 +157,7 @@ const Projects = () => {
       <div className="img-box">
         <h2>Plant it <br /> Forward</h2>
         <a href="https://plant-it-forward.herokuapp.com/" target='_blank' rel='noreferrer'>
-          <img src={PIF} alt="" />
+          <img src={PIF} alt="plant-it-forward" />
         </a>  
       </div>
       <div className="description-box">
@@ -164,6 +166,23 @@ const Projects = () => {
           <p>Technologies: React, Node.js, Express, JavaScript, HTML, CSS, Google Maps, Multer, Cloudinary </p>
           <br />
           <a className='link' href="https://github.com/Plants-and-stuff" target='_blank' rel='noreferrer'>GitHub Repo</a>
+        </div>
+      </div>
+    </div>
+
+    <div className="project-box">
+      <div className="img-box">
+        <h2>Dumbledore's <br />Army <br /> Spell Tracker</h2>
+        <a href="https://dumbledore-army-app.netlify.app/" target='_blank' rel='noreferrer'>
+          <img src={DASpellTracker} alt="dumbledore-army" />
+        </a>  
+      </div>
+      <div className="description-box">
+        <div>
+          <p>This project was based on Harry Potter and the Order of the Phoenix book by J.K. Rowling - User can add new members to the group, add new spells learned by the group and set up new meeting dates that will show up on a magic Galleon.</p>
+          <p>Technologies: <br /> Backend - Python, Django, REST Frameworks, PostgreSQL. <br /> Frontend - React.js, HTML, CSS </p>
+          {/* <br /> */}
+          <a className='link' href="hhttps://github.com/justaples/Dumbledore-Army-frontend" target='_blank' rel='noreferrer'>GitHub Repo</a>
         </div>
       </div>
     </div>
