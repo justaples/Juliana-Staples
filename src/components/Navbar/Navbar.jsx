@@ -80,6 +80,7 @@ const Navbar = () => {
     <NavContainer >
     <div className='navBar' 
      >
+      
       <div>
       <Link to='/home' className='link'>
       <img src={myLogo} alt="juliana-staples-logo" className='logo'/>

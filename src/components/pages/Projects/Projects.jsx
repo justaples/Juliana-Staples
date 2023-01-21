@@ -117,7 +117,7 @@ const Projects = () => {
     <ProjectsContainer>
     <div className='projects'>
     <div className='all-projects'>
-    <h1 className='title'>Portfolio</h1>
+    <h1 className='title'>Projects</h1>
 
     <div className="project-box">
       <div className="img-box">
@@ -182,25 +182,10 @@ const Projects = () => {
           <p>This project was based on Harry Potter and the Order of the Phoenix book by J.K. Rowling - User can add new members to the group, add new spells learned by the group and set up new meeting dates that will show up on a magic Galleon.</p>
           <p>Technologies: <br /> Backend - Python, Django, REST Frameworks, PostgreSQL. <br /> Frontend - React.js, HTML, CSS </p>
           {/* <br /> */}
-          <a className='link' href="hhttps://github.com/justaples/Dumbledore-Army-frontend" target='_blank' rel='noreferrer'>GitHub Repo</a>
+          <a className='link' href="https://github.com/justaples/Dumbledore-Army-frontend" target='_blank' rel='noreferrer'>GitHub Repo</a>
         </div>
       </div>
     </div>
-
-    {/* <div className="project-box">
-      <div className="img-box">
-        <h2>This Website</h2>
-          <img src={Portfolio} alt="" />
-      </div>
-      <div className="description-box">
-        <div>
-          <p>Work in Progress</p>
-          <p>Technologies: React.js, HTML, CSS </p>
-          <br />
-          <a className='link' href="https://github.com/justaples/Juliana-Staples" target='_blank' rel='noreferrer'>GitHub Repo</a>
-        </div>
-      </div>
-    </div> */}
     </div>
     </div>
     </ProjectsContainer>
